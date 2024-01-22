@@ -1,0 +1,1 @@
+npm install --legacy-peer-deps framer-motion three react-intersection-observer @react-three/drei @react-three/fiber maath react-tilt react-vertical-timeline-component @emailjs/browser react-router-dom
