@@ -23,7 +23,7 @@ function HeroContent() {
       <motion.div
         initial="hidden"
         animate="visible"
-        className="flex flex-row items-center justify-center px-20  mt-32 w-full z-[20]"
+        className="flex flex-row items-center justify-center px-24 mt-20 w-full z-[20]"
       >
         <div className="h-full w-full flex flex-col gap-5 justify-center ml-11 text-start">
           <motion.div
@@ -39,7 +39,7 @@ function HeroContent() {
           >
             <span>
               Coding
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F70C18] to-[#FF7F00]">
                 {" "}
                 the Future,{" "}
               </span>
@@ -68,7 +68,7 @@ function HeroContent() {
 
         <motion.div
           variants={slideInFromRight(0.8)}
-          className="w-full  h-[600px] md:flex justify-center items-center hidden sm:visible"
+          className="w-full  h-[600px] md:flex mt-5  justify-center items-center hidden sm:visible"
         >
           
           <Canvas

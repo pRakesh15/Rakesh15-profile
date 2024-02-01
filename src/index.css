@@ -37,8 +37,8 @@
   .button-primary {
     background: linear-gradient(
         180deg,
-        rgba(60, 8, 126, 0) 0%,
-        rgba(60, 8, 126, 0.32) 100%
+        rgb(157, 17, 17) 0%,
+        rgba(162, 25, 25, 0.658) 100%
       ),
       rgba(113, 47, 255, 0.12);
     box-shadow: inset 0 0 12px #bf97ff3d;

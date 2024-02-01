@@ -51,6 +51,9 @@ const Navbar = () => {
             <a href="#contact" className="cursor-pointer  hover:text-gray-400">
               Contact
             </a>
+            <a href="#contact" className="cursor-pointer  hover:text-gray-400">
+            Blog
+          </a>
           </div>
         </div>
         {/* for music play and pus */}

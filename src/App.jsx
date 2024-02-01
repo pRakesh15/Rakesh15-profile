@@ -13,15 +13,18 @@ function App() {
       <main className="h-full w-full">
         <div className="flex flex-col  gap-20">
           <Navbar />
-          <Hero />
+          <div className="relative z-0">
+          <Hero/>
+          <BackCanvas points={350} color={"#AF2736"}/>
+          </div>
           <div className="relative z-0">
           <Skils/>
-          <BackCanvas/>
+          <BackCanvas points={5000} color={"#f272c8"}/>
           </div>
           <Projects/>
           <div className="relative z-0">
           <Contact/>
-          <BackCanvas/>
+          <BackCanvas points={5000} color={"#f272c8"}/>
           </div>
           <Footer/>
           
