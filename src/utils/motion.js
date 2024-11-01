@@ -35,8 +35,8 @@ export const slideInFromTop=
         y:0,
         opacity:1,
         transition:{
-            delay:1.2,
-            duration:0.5,
+            delay:1.5,
+            duration:0.7,
         },
     },
 }
