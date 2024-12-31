@@ -1,5 +1,13 @@
+import { Coffee } from "lucide-react";
 import React, { useRef, useState } from "react";
-import { FaPlay, FaDiscord, FaWhatsapp, FaPause, FaBars, FaTimes } from "react-icons/fa";
+import {
+  FaPlay,
+  FaDiscord,
+  FaWhatsapp,
+  FaPause,
+  FaBars,
+  FaTimes,
+} from "react-icons/fa";
 
 const Navbar = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -42,9 +50,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Navigation */}
-        <div
-          className="w-[500px] h-full flex-row items-center justify-between hidden md:flex"
-        >
+        <div className="w-[500px] h-full flex-row items-center justify-between hidden md:flex">
           <div className="flex items-center w-full h-auto justify-between border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#skills" className="cursor-pointer hover:text-gray-400">
               Skills
@@ -55,29 +61,50 @@ const Navbar = () => {
             <a href="#contact" className="cursor-pointer hover:text-gray-400">
               Contact
             </a>
+
           </div>
         </div>
 
         {/* Mobile Navigation Toggle */}
         <div className="md:hidden flex items-center">
           <button onClick={handleToggleMenu}>
-            {isMenuOpen ? <FaTimes className="text-white" /> : <FaBars className="text-white" />}
+            {isMenuOpen ? (
+              <FaTimes className="text-white" />
+            ) : (
+              <FaBars className="text-white" />
+            )}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="absolute top-[55px] left-0 w-full bg-gray-700 backdrop-blur-md z-40 px-10 py-5 flex flex-col items-center space-y-4 md:hidden">
-            <a href="#about" className="cursor-pointer text-gray-200 hover:text-gray-400">
+            <a
+              href="#about"
+              className="cursor-pointer text-gray-200 hover:text-gray-400"
+            >
               Skills
             </a>
-            <a href="#projects" className="cursor-pointer text-gray-200 hover:text-gray-400">
+            <a
+              href="#projects"
+              className="cursor-pointer text-gray-200 hover:text-gray-400"
+            >
               Projects
             </a>
-            <a href="#contact" className="cursor-pointer text-gray-200 hover:text-gray-400">
+            <a
+              href="#contact"
+              className="cursor-pointer text-gray-200 hover:text-gray-400"
+            >
               Contact
             </a>
+
             <div className="flex flex-row gap-5 mt-4">
+              <a
+                href="https://payment-gatway-web.vercel.app/coffee"
+                target="_blank"
+              >
+                <Coffee className="text-yellow-400  cursor-pointer" />
+              </a>
               <a href="https://wa.me/+916372700872" target="_blank">
                 <FaWhatsapp className="text-green-600 text-lg cursor-pointer" />
               </a>
@@ -103,6 +130,12 @@ const Navbar = () => {
             controls={false}
             loop
           />
+          <a
+            href="https://payment-gatway-web.vercel.app/coffee"
+            target="_blank"
+          >
+            <Coffee className="text-yellow-400 text-lg cursor-pointer" />
+          </a>
           <a href="https://wa.me/+916372700872" target="_blank">
             <FaWhatsapp className="text-green-600 text-lg cursor-pointer" />
           </a>
