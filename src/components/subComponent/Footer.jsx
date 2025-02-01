@@ -33,7 +33,7 @@ function Footer() {
             </svg>
           </a>
           <a
-            href="https://res.cloudinary.com/dcycd6p6i/image/upload/v1730478444/Rakesh_Pradhan_fullStackDEV_page-0001_fnay7k.jpg"
+            href="https://res.cloudinary.com/dcycd6p6i/image/upload/v1738408288/dkfig0mfiwscvcpkftwj.jpg"
             target="_blank"
             className="mr-9 text-[#760D19] cursor-pointer"
             download={true}
