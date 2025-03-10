@@ -9,8 +9,8 @@ export function Experience() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <span className="font-bold text-lg">Full-Stack Developer Intern</span> <br />
-            <span className="font-generalsans">Team Member-Gram Tarang Inclusive Development Services Private Limited (GTIDS)</span><br />
+            <span className="font-bold text-lg">Full-Stack Developer </span> <br />
+            <span className="font-generalsans">Corefront Technologies Private Limited</span><br />
             As part of a collaborative team, contributed to the development of a comprehensive LMS platform.
           </p>
           <div className="grid grid-cols-2 gap-4">

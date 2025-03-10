@@ -174,7 +174,7 @@ const About = () => {
                       alt="copy"
                     />
                     <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
-                      rp5865442@gmail.com
+                      rakeshpradhan.dev@gmail.com
                     </p>
                   </div>
                 </div>
