@@ -43,7 +43,7 @@ export const myProjects = [
       desc: 'reated a dynamic real-time chat application employing Socket.IO for efficient bidirectional communicationbetween the server and clients. Implemented a responsive and intuitive user interface using React alongside Chakra UI components, ensuring a seamless and visually appealing user experience',
       subdesc:
       "face using React alongside Chakra UI components, ensuring a seamless and visually appealing user experience.Utilized Express.js for the backend server, Incorporated features such asreal-time messaging, user authentication, and message persistence, enhancing user engagement and satisfaction.",
-      href: 'https://github.com/pRakesh15/ChatApplication',
+      href: 'https://chat-app-clint.vercel.app/chart',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -81,7 +81,7 @@ export const myProjects = [
       desc: 'Developed an online learning platform enabling students to purchase and self-study courses. Utilized Node.js and Express for the backend, React with React Router for the frontend, Redux for state management',
       subdesc:
         'And integrated Tailwind CSS and Chakra UI for responsive design,integrated Tailwind CSS and Chakra UI for responsive design,Utilized Node.js and Express for the backend, React with React Router for the frontend, Redux for state management',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: 'https://cource-hub-clint.vercel.app',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -121,7 +121,7 @@ export const myProjects = [
       desc: 'Experienced React.js developer with a passion for creating immersive user experiences. Proficient in utilizing third-party APIs, with specific expertise in integrating TMDB (The Movie Database) API for building movie streaming applications',
       subdesc:
         'Proven ability to work collaboratively in agile environments to deliverhigh-quality, scalable solutions. Excited to leverage skills and knowledge to contribute to innovative projects in thetech industry.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      href: 'https://github.com/pRakesh15/youtube_clone',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
