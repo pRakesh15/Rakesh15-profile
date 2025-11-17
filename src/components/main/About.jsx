@@ -7,8 +7,6 @@ import { Canvas } from "@react-three/fiber";
 import { DemoGlobe } from "../subComponent/DemoGlobe.jsx";
 import { OrbitControls } from "@react-three/drei";
 
-
-
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
@@ -23,8 +21,6 @@ const About = () => {
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
-
 
   return (
     <motion.div
@@ -54,9 +50,9 @@ const About = () => {
                 <div>
                   <p className="grid-headtext">Hi, I’m Rakesh Pradhan</p>
                   <p className="grid-subtext">
-                    With one year of experience, I specialize in backend
-                    development and possess frontend skills, creating
-                    responsive,and dynamic, websites
+                    Impact-driven Backend developer with 2 years of experience in
+                    building scalable APIs and backend systems using Node.js,
+                    NestJS, and GraphQL.
                   </p>
                 </div>
               </div>
@@ -116,17 +112,16 @@ const About = () => {
                   I’m very flexible with time zone communications & locations
                 </p>
                 <p className="grid-subtext">
-                  I&apos;m based in Bhubaneswer , Odisha and open to remote work
+                  I&apos;m based in Noida , UtterPradesh and open to remote work
                   worldwide.
                 </p>
                 <a href="#contact">
-                <Button
-                name="Contact Me"
-                isBeam
-                containerClass="w-full mt-10"
-              />
+                  <Button
+                    name="Contact Me"
+                    isBeam
+                    containerClass="w-full mt-10"
+                  />
                 </a>
-               
               </div>
             </motion.div>
           </div>

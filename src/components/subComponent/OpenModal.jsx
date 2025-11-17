@@ -41,7 +41,7 @@ export function AnimatedModalDemo() {
           <span>📄</span>
         </div>
       ),
-      href: "https://res.cloudinary.com/dcycd6p6i/image/upload/v1742283038/RakeshPradhan-MernStackDev_page-0001_1_nkdoiv.jpg", // Link to the resume file
+      href: "https://res.cloudinary.com/dcycd6p6i/image/upload/v1763362635/RakeshPradhan_FullStackDev_page-0001_f4oacy.jpg", // Link to the resume file
     },
     {
       title: "Instagram",
